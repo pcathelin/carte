@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeuse Fête des Mères !</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f8f5f0; /* Crème très clair, presque blanc cassé */
+            color: #5a504B; /* Gris brun doux pour le texte principal */
+        }
+        .luxury-title {
+            font-family: 'Cormorant Garamond', serif;
+            color: #705548; /* Brun moyen, élégant */
+            font-weight: 600;
+        }
+        .card-container {
+            max-width: 680px; /* Un peu plus large pour plus d'aisance */
+            margin: 4rem auto; /* Plus de marge extérieure */
+            border-radius: 0.5rem; /* Coins moins arrondis, plus nets */
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.07), 0 4px 15px rgba(0,0,0,0.05); /* Ombre très subtile */
+            overflow: hidden;
+            background-color: #ffffff;
+            border: 1px solid #e0d9d0; /* Bordure fine et discrète */
+        }
+        .header-image-container {
+            height: 320px;
+            background-size: cover;
+            background-position: center;
+        }
+        .family-photo {
+            width: 150px; /* Taille légèrement réduite pour plus de finesse */
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: -75px auto 2rem auto; /* Augmentation de la marge inférieure */
+            border: 5px solid #ffffff; /* Bordure blanche pour détacher */
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Ombre discrète */
+            position: relative;
+            z-index: 10;
+        }
+        .button-cta {
+            background-color: #705548; /* Brun moyen assorti au titre */
+            color: #ffffff;
+            padding: 0.75rem 2rem; /* Padding ajusté */
+            border-radius: 0.25rem; /* Coins très peu arrondis */
+            text-decoration: none;
+            font-weight: 400; /* Montserrat normal */
+            letter-spacing: 0.05em; /* Léger espacement des lettres */
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: inline-block;
+            border: 1px solid #705548;
+        }
+        .button-cta:hover {
+            background-color: #ffffff;
+            color: #705548; /* Texte devient brun au survol */
+        }
+        .footer-text {
+            font-size: 0.8rem; /* Plus petit */
+            color: #8c7b70; /* Brun clair pour le pied de page */
+            letter-spacing: 0.025em;
+        }
+        .highlight-box {
+            background-color: transparent; /* Fond transparent */
+            padding: 2rem 1rem; /* Plus de padding vertical */
+            border-radius: 0; /* Pas de coins arrondis */
+            border-top: 1px solid #e0d9d0; /* Séparateur fin en haut */
+            border-bottom: 1px solid #e0d9d0; /* Séparateur fin en bas */
+            margin-top: 2.5rem;
+            margin-bottom: 2.5rem; /* Plus d'espace autour */
+        }
+        .highlight-box h2 {
+            color: #705548; /* Assorti au titre principal */
+            font-weight: 600;
+        }
+        .text-content {
+            padding: 0 2.5rem; /* Plus de padding horizontal pour le contenu textuel */
+        }
+        .text-content p {
+            color: #5a504B;
+            line-height: 1.8; /* Interligne généreux */
+            font-weight: 300; /* Montserrat Light pour le corps du texte */
+            margin-bottom: 1.5rem; /* Espacement entre les paragraphes */
+        }
+        .text-content strong {
+            font-weight: 500; /* Montserrat Medium pour les mises en exergue */
+            color: #705548;
+        }
+    </style>
+</head>
+<body class="flex items-center justify-center min-h-screen p-4">
+
+    <div class="card-container">
+        <div class="header-image-container" style="background-image: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/665368242.jpg?k=12f404b172f729d78ac991aff065514eb053d7d66bcd78433edd75b07dc90d72&o=&hp=1');">
+        </div>
+
+        <div class="pb-10 pt-2 text-center">
+            <img src="https://i.ibb.co/xq6n1QJL/IMG-8759.jpg" alt="Photo de nous trois" class="family-photo"
+                 onerror="this.onerror=null; this.src='https://placehold.co/150x150/E0D9D0/705548?text=Notre+Photo'; this.style.border='3px solid #e0d9d0';">
+
+            <div class="text-content">
+                <h1 class="luxury-title text-4xl md:text-5xl mt-4 mb-8">
+                    Joyeuse Fête des Mères
+                </h1>
+
+                <p class="text-base md:text-lg">
+                    À ma merveilleuse épouse, une maman extraordinaire,
+                </p>
+                <p class="text-sm md:text-base mb-10">
+                    En ce jour qui t'est dédié, nous souhaitions te dire combien ton amour et ta présence embellissent nos vies. Ta patience, ta douceur et ta joie sont les trésors de notre quotidien.
+                </p>
+
+                <div class="highlight-box">
+                    <h2 class="text-2xl md:text-3xl font-semibold mb-4 luxury-title">
+                        Une Surprise Élégante
+                    </h2>
+                    <p class="text-base md:text-lg">
+                        Pour célébrer la femme et la mère exceptionnelle que tu es,
+                        j'ai l'immense plaisir de t'inviter à découvrir la splendeur de
+                        <strong class="font-semibold">l'Abbaye des Vaux de Cernay</strong>.
+                    </p>
+                    <p class="mt-3 text-sm md:text-base">
+                        Un écrin de sérénité pour un moment de pure détente et de précieux souvenirs à créer ensemble.
+                    </p>
+                </div>
+
+                <p class="text-base md:text-lg mt-10 mb-10">
+                    Avec tout notre amour, infini et sincère.
+                </p>
+
+                <a href="#" class="button-cta mb-12">
+                    NOUS T'AIMONS
+                </a>
+            </div>
+
+            <p class="footer-text mt-12">
+                Ton mari et ton fils
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Script pour gérer le fallback de l'image de l'abbaye
+        const headerImageContainer = document.querySelector('.header-image-container');
+        if (headerImageContainer) {
+            const abbeyImageUrlStyle = headerImageContainer.style.backgroundImage;
+            const abbeyImageUrlMatch = abbeyImageUrlStyle.match(/url\("?(.+?)"?\)/);
+            const abbeyImageUrl = abbeyImageUrlMatch ? abbeyImageUrlMatch[1] : "";
+
+            if (abbeyImageUrl && abbeyImageUrl.startsWith("http")) {
+                const img = new Image();
+                img.src = abbeyImageUrl;
+                img.onerror = function() {
+                    headerImageContainer.style.backgroundImage = "url('https://placehold.co/680x320/E0D9D0/705548?text=Abbaye+des+Vaux+de+Cernay')";
+                    headerImageContainer.style.backgroundSize = 'cover';
+                };
+            } else {
+                 headerImageContainer.style.backgroundImage = "url('https://placehold.co/680x320/E0D9D0/705548?text=Abbaye+des+Vaux+de+Cernay')";
+                 headerImageContainer.style.backgroundSize = 'cover';
+            }
+        }
+    </script>
+
+</body>
+</html>
